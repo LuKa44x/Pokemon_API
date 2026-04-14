@@ -9,7 +9,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-image: url(https://images.wallpapersden.com/image/download/pokemon-pikachu-art_a25tbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-position: center;
 }
 .pokemon-card {
   border: 1px solid rgb(255, 255, 255);
