@@ -10,3 +10,8 @@ body {
   height: 100vh;
   background-color: #f0f0f0;
 }
+.pokemon-card {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 25%;
+  padding: 25px;
+}

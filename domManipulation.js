@@ -9,6 +9,7 @@ export function createCard(pokemonData) {
   const name = document.createElement("h2");
   name.textContent = pokemonData.species.name;
 
+  showPicture(pokemonData, card);
   showType(pokemonData, card);
 
   card.appendChild(name);
@@ -25,4 +26,12 @@ function showType(pokemonData, card) {
     type2.textContent = pokemonData.types[1].type.name;
     card.appendChild(type2);
   }
+}
+
+function showPicture(pokemonData, card) {
+  const pic = document.createElement("img");
+  pic.src = pokemonData.sprites.other.home.front_default;
+  pic.width = 150;
+
+  card.appendChild(pic);
 }
