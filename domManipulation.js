@@ -1,6 +1,8 @@
 export function createCard(pokemonData) {
-  const card = document.createElement("div");
   const container = document.querySelector(".container");
+  container.innerHTML = "";
+  const card = document.createElement("div");
+
   container.appendChild(card);
   card.classList.add("pokemon-card");
 
